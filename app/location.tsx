@@ -1,10 +1,10 @@
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function SignUp() {
+export default function LocationScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Sign Up</Text>
-      <Text>Sign up screen placeholder.</Text>
+      <Text style={styles.title}>Location Screen</Text>
+      <Text>This is the location page.</Text>
     </View>
   );
 }
