@@ -17,9 +17,7 @@ export default function Index() {
   return (
     <>
     <SafeAreaView className="bg-[#6baa7d] h-full flex items-center justify-center">
-      <StatusBar style="dark" />
-
-      
+      <StatusBar style="dark" /> 
       <View>
         {/* Hero Section */}
             <Image
