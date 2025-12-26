@@ -9,10 +9,10 @@ export default function Index() {
 
    useEffect(() => {
     const timer = setTimeout(() => {
-      router.replace('../onboarding'); // 👈 navigate
+      router.replace('../onboarding'); 
     }, 2000);
 
-    return () => clearTimeout(timer); // cleanup
+    return () => clearTimeout(timer); 
   }, []);
   return (
     <>
